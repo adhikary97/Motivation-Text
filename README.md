@@ -8,6 +8,6 @@ This is made to send you a motivational text in the morning. It uses the affirma
 
 All you need to do is add your phone number where it says `<phone number>` in `main.py`
 
-Then Run with 
+## Then Run with 
 
 `python main.py`

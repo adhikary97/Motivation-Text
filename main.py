@@ -61,8 +61,8 @@ def job():
                 email_sms(affirmation)
         else:
             print('Error occurred')
-    except:
-        print('Unable to send email')
+    except Exception as e:
+        print('An error occurred: %s' % e)
 
 
 def email_sms(message):

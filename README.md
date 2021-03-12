@@ -6,7 +6,7 @@ This is made to send you a motivational text in the morning. It uses the affirma
 
 `pip install -r requirements.txt`
 
-## 2. Get credentials.json from Gmail API
+## 2. Get credentials.json from Gmail API, and add to folder
 
 Make sure to set the callback uri to: `http://localhost:3000/`
 
@@ -29,6 +29,6 @@ mac = True # set this flag if you want to send the message with iMessage or not.
 carrier = carriers['att'] # select your carrier
 ```
 
-## Then Run with 
+## 4. Run script
 
 `python main.py`
